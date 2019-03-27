@@ -1,0 +1,3 @@
+email:usuarioUniversal123@primeirousuario
+senha:698dc19d489c4e4
+endereço adm: 127.0.0.1/projeto5/paginas/login.php

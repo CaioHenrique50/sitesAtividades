@@ -1,0 +1,146 @@
+.fotos{
+	width: 100%;
+}
+.titulo_fotos{
+	height: 60px;
+	background-color: #ab0a02;
+	margin-top: 20px;
+}
+.titulo_fotos h2{
+	font-weight: bold;
+	color: #fff;
+	font-family: arial;
+	font-size:25px;
+	margin-left: 5%;
+	padding-top: 5%;
+}
+.galeria{
+	margin-top: 50px;
+	width: 100%;
+	margin-left: 5%;
+}
+.mostra_imagem{
+	display: none;
+	margin-top: 0px;
+	width: 100%;
+	height: 900px;
+	position: absolute;
+	background-color: #ccc;
+}
+.galeria img{
+	width: 40%;
+	height: 150px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.desenvolvedores {
+	margin-left: 45%;
+}
+footer{
+	margin-top: 140px;
+}
+
+@media(min-width: 720px){
+	.titulo_fotos{
+		height: 60px;
+		background-color: #ab0a02;
+		margin-top: 20px;
+	}
+	.titulo_fotos h2{
+		font-size:30px;
+		margin-left: 5%;
+		padding-top: 2%;
+	}
+	.galeria{
+		margin-top: 50px;
+		width: 100%;
+		margin-left: 8%;
+	}
+	.mostra_imagem{
+		display: none;
+		margin-top: 0px;
+		width: 100%;
+		height: 900px;
+		position: absolute;
+		background-color: #ccc;
+	}
+	.galeria img{
+		width: 40%;
+		height: 150px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+@media(min-width: 1080px){
+	.titulo_fotos{
+		height: 80px;
+		background-color: #ab0a02;
+		margin-top: 20px;
+	}
+	.titulo_fotos h2{
+		font-size:30px;
+		margin-left: 5%;
+		padding-top: 2%;
+	}
+	.galeria{
+		margin-top: 50px;
+		width: 100%;
+		margin-left: 8%;
+	}
+	.mostra_imagem{
+		display: none;
+		margin-top: 0px;
+		width: 100%;
+		height: 900px;
+		position: absolute;
+		background-color: #ccc;
+	}
+	.galeria img{
+		width: 40%;
+		height: 150px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+@media(min-width: 1240px){
+	.fotos{
+		width: 100%;
+	}
+	.titulo_fotos{
+		height: 80px;
+		background-color: #ab0a02;
+		margin-top: 150px;
+	}
+	.titulo_fotos h2{
+		font-weight: bold;
+		color: #fff;
+		font-family: arial;
+		font-size:55px;
+		margin-left: 5%;
+		padding-top: 0.5%;
+	}
+	.galeria{
+		margin-top: 50px;
+		width: 100%;
+		margin-left: 5%;
+	}
+	.mostra_imagem{
+		display: none;
+		margin-top: 0px;
+		width: 100%;
+		height: 900px;
+		position: absolute;
+		background-color: #ccc;
+	}
+	.galeria img{
+		width: 21%;
+		height: 300px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	footer{
+		margin-top: 140px;
+	}
+}

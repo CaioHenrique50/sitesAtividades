@@ -1,0 +1,28 @@
+tabela do administrador do site:
+
+CREATE DATABASE fatecbarueri
+
+CREATE TABLE `fatecbarueri`.`tbl_adm` (
+  `id_Adm` INT NOT NULL AUTO_INCREMENT,
+  `nome_adm` VARCHAR(30) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `senha` VARCHAR(15) NOT NULL,
+    PRIMARY KEY (`id_Adm`))
+COMMENT = 'tabela para gerenciar noticia';
+
+tabela de noticia do site:
+
+CREATE TABLE `tbl_noticia` (
+  `id_noticia` int(11) NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(45) NOT NULL,
+  `subtitulo` varchar(45) NOT NULL,
+  `noticia` Text NOT NULL,
+  `dt_publicacao` datetime NOT NULL,
+  `autor` varchar(30) NOT NULL,
+  `id_Adm` int(11) NOT NULL,
+   PRIMARY KEY (`id_noticia`),
+   CONSTRAINT `id_Adm` FOREIGN KEY (`id_Adm`) REFERENCES `tbl_adm` (`id_Adm`) 
+) 
+
+
+

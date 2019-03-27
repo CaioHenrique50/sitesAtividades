@@ -1,0 +1,169 @@
+
+*{ 
+	margin:0;
+	padding: 0;
+}
+body { overflow-x: hidden; }
+.imagem img{
+    background-image: url('../imagens/historia.JPG');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 100%;
+}
+.box_texto{
+    background-color: #f1f1f1;
+    text-align: justify;
+    padding: 2%;
+}
+.box_texto h1{
+    text-align: center;
+    color: #FF4500;
+    padding: 0%;
+    font-size: 161%;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+.box_texto p{
+    text-indent: 25px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    font-family: arial;
+    width: 90%;
+    margin-left: 5%;
+}
+/* box_texto configuração do h2 da pagina secretaria */
+.box_texto h2{
+    font-size: 100%;
+    text-indent: 15px;
+    color:#FF4500; 
+    font-family: arial;
+}
+.desenvolvedores {
+    margin-left: 45%;
+}
+
+/* Posicionamento Galaxy S5 */
+    @media (min-width: 360px) {
+.imagem img{
+    height: 200px;
+    }
+.box_texto{
+    background-color: #f1f1f1;
+    text-align: justify;
+    margin-right: 10%;
+
+}
+.box_texto h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF4500;
+    padding: 0%;
+    font-size: 150%;
+}
+.box_texto p{
+    text-indent: 25px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    font-family: arial;
+    width: 100%;
+}
+}
+/* Posicionamento Iphone 6 */
+@media (min-width: 375px) {
+.imagem img{
+    height: 200px;
+    }
+.box_texto{
+    padding: 3.3%;
+    font-size: 105%;
+}
+.box_texto h1{
+    text-align: center;
+}
+
+.box_texto p{
+    text-indent: 25px;
+    letter-spacing: -1px;
+    font-size: 16px;
+    font-family: arial;
+    } 
+}
+/* Posicionamento Nexus 5X e Nexus 6P */
+@media (min-width: 412px) {
+.imagem img{
+    height: 230px;    
+    }
+.box_texto{
+    background-color: #f1f1f1;
+    text-align: justify;
+}
+.box_texto h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF4500;
+    font-size: 177%;
+}
+.box_texto p{
+    text-indent: 25px;
+    letter-spacing: -1px;
+    font-size: 98.4%;
+    font-family: arial;
+}  
+}
+/* Posicionamento Iphone 6 Plus */
+@media (min-width: 414px) {
+    .imagem img{
+        height: 242px;
+    }
+    .box_texto h1{
+        font-size: 200%;
+    }
+    .box_texto p{
+        font-size: 96.2%;
+    }
+}
+/* Posicionamento Ipad */
+@media (min-width: 768px) {
+        .imagem img{
+        height: 350px;
+    }
+    .box_texto h1{
+        font-size: 300%;
+    }
+    
+    .box_texto p{
+        font-size: 148%;
+    }
+    /* 
+    box_texto configuração do h2 da pagina secretaria
+    */
+    .box_texto h2{
+    font-size: 200%; 
+    }
+}
+/* Posicionamento Ipad  Pro*/
+@media (min-width: 1024px) {
+        .imagem img{
+        height: 500px;
+    }
+    .box_texto h1{
+        font-size: 300%;
+        padding-bottom: 1%;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .prim_item{
+        margin-top: 150px;
+    }
+    .box_texto p{
+        font-size: 20px;
+    }
+    /* 
+    box_texto configuração do h2 da pagina secretaria
+    */
+    .box_texto h2{
+    font-size: 230%; 
+    }
+}

@@ -1,0 +1,73 @@
+.content{
+	padding: 5%;
+}
+.content-text{
+	padding: 15px 0px;
+	text-align: justify;
+}
+.content-form{
+	background: #921209;
+	color: #fff;
+	padding: 10px;
+	height: 320px;
+}
+input[type="text"]{
+	width: 100%;
+	height: 30px;
+}
+input[type="email"]{
+	width: 100%;
+	height: 30px;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+}
+input[type="button"]{
+	margin-top: 10px;
+	width: 70px;
+	height: 30px;
+	color: #fff;
+	background: #004E58;
+	border: none;
+	right: 20px;
+	float: right;
+}
+.content-fones{
+	text-align: center;
+}
+.desenvolvedores{
+	margin-left: 45%;
+}
+@media only screen and (min-width:425px){ /* tela apartir de 425 */ 
+}
+@media only screen and (min-width:850px){ /* tela apartir de 850 */
+}
+@media only screen and (min-width:950px){
+	.content{
+		padding: 5%;
+		margin-top: 100px;
+	}
+	.content-text{
+		padding: 15px 0px;
+		width: 40%;
+		height: 80px;
+		float: right;
+		margin-right: 15%;
+	}
+	.content-form{
+		width: 30%;
+		height: 320px;
+		margin: 0px;
+		float: left;
+		margin-bottom: 30px;
+		margin-left: 10%;
+	}
+	.content-fones{
+		float: right;
+		width: 40%;
+		height: 200px;
+		margin-right: 15%;
+	}
+	.clear{ clear:both; }
+}

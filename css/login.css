@@ -1,0 +1,36 @@
+*{
+	font-family: arial;
+}
+.editar-box{
+	margin-left: 10%;
+	margin-top: 20%;
+}
+.editar-box input{
+	width: 80%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.editar-box p{
+	text-align: center;
+	margin-right: 20%;
+}
+.editar-box h2{
+	text-align: center;
+	margin-right: 20%;
+	margin-bottom: 20px;
+}
+footer{
+	margin-top: 79px;
+}
+@media (min-width: 1240px){
+	.editar-box{
+		margin-left: 15%;
+		margin-top: 12%;
+	}
+	.editar-box input{
+		width: 50%;
+		height: 40px;
+		margin-bottom: 30px;
+		margin-left: 15%;
+	}
+}
